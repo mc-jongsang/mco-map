@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/map-infra" />
+            <option value="$PROJECT_DIR$/map-infra/cloud.config" />
+            <option value="$PROJECT_DIR$/map-infra/cloud.gateway" />
+            <option value="$PROJECT_DIR$/map-services" />
+            <option value="$PROJECT_DIR$/map-services/api.auth" />
+            <option value="$PROJECT_DIR$/map-services/api.client" />
+            <option value="$PROJECT_DIR$/map-services/api.client-admin" />
+            <option value="$PROJECT_DIR$/map-services/api.media" />
+            <option value="$PROJECT_DIR$/map-services/api.media-admin" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+apply plugin: 'maven-publish'
+
+publishing {
+    def nexusUrl = "https://nexus-repo.dev.bigin.io/repository/maven-releases/"
+    def nexusId = "dev"
+    def nexusPasswd = "bigin2021!23\$"
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            url "$nexusUrl"
+            credentials {
+                username = "$nexusId"
+                password = "$nexusPasswd"
+            }
+
+        }
+    }
+}
